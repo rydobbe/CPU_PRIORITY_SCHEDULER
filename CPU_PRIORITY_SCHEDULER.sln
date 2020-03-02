@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29728.190
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CPU_PRIORITY_SCHEDULER", "CPU_PRIORITY_SCHEDULER\CPU_PRIORITY_SCHEDULER.vcxproj", "{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Debug|x64.ActiveCfg = Debug|x64
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Debug|x64.Build.0 = Debug|x64
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Debug|x86.ActiveCfg = Debug|Win32
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Debug|x86.Build.0 = Debug|Win32
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Release|x64.ActiveCfg = Release|x64
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Release|x64.Build.0 = Release|x64
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Release|x86.ActiveCfg = Release|Win32
+		{DE2FDA83-BFFD-4D4C-9140-473EA1DF1BF1}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {1D5B4B2B-F98D-470A-A674-65C6E2680CE7}
+	EndGlobalSection
+EndGlobal
