@@ -2,7 +2,7 @@
 #include <fstream>
 #include <string>
 #include <stdlib.h>
-#include "stdc++.h"
+//#include "stdc++.h"
 
 using namespace std;
 
@@ -61,14 +61,16 @@ void file_read() {
 			
 			proc[i].burst = proc[i].burst - quantum;
 			_time = _time + quantum;
+
 			if (proc[i].burst == 0) {
 				done = true;
 			}
 			else if (proc[i].burst < 0) {
 				done = true;
 				proc[i].burst = 0;
-				_time = _time + (-1 * proc[i].burst);
 				proc[i].ex_time = _time;
+				_time = _time + (-1 * proc[i].burst);
+				
 			}
 			if (done) {
 				cout << "Process: " << proc[i].pid << " Finished at time: " << proc[i].ex_time << endl;
@@ -100,6 +102,7 @@ void file_read() {
 
 				if (done) {
 					cout << "Process: " << proc[i].pid << " Finished at time: " << proc[i].ex_time << endl;
+					done = false;
 				}
 			}
 		}
